@@ -14,6 +14,7 @@ const argv = require('yargs')
     describe: 'command'
   })
   .alias('cmd', 'command')
+  .alias('name', 't')
   .demandOption(['name', 'command'])
   .help()
   .argv
