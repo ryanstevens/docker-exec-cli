@@ -1,6 +1,6 @@
 {
   "name": "docker-exec-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrapper around docker exec so you can run commands in your container by image name",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "url": "git+https://github.com/ryanstevens/docker-exec-cli.git"
   },
   "bin": {
-    "docker-exec": "src/docker-exec-bin"
+    "docker-exec": "src/docker-exec-bin.js"
   },
   "keywords": [
     "docker",

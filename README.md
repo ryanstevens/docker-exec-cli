@@ -11,8 +11,8 @@ npm install docker-exec-cli -g
 
 ## Usage
 ```bash
-docker-exec <image-name> <cmd+args>
+docker-exec --name <image-name> --cmd="<cmd+args>"
 ```
 
 #### Multiple Containers
-What happens if there are multiple running containers with the same image name?  Then the command will be applied to all running containers matching the image name.
+The command will be applied to all running containers matching the image name.
