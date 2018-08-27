@@ -1,0 +1,35 @@
+{
+  "name": "docker-exec-cli",
+  "version": "1.0.0",
+  "description": "Wrapper around docker exec so you can run commands in your container by image name",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanstevens/docker-exec-cli.git"
+  },
+  "bin": {
+    "docker-exec": "src/docker-exec-bin"
+  },
+  "keywords": [
+    "docker",
+    "exec"
+  ],
+  "author": "ryanstevens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanstevens/docker-exec-cli/issues"
+  },
+  "homepage": "https://github.com/ryanstevens/docker-exec-cli#readme",
+  "devDependencies": {
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "proxyquire": "^2.1.0",
+    "yargs": "^12.0.1"
+  }
+}
